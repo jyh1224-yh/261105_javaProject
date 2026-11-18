@@ -16,7 +16,7 @@ public class Exam02 {
 				if(math >= 0 && math <=100) {
 
 					int total = kor + eng + math;
-					double avr = total / (double)3.0;
+					double avg = (double) total/3;
 					System.out.println("합계 " + total);
 					System.out.println("평군 "+((total) / (double)3));
 					
@@ -33,7 +33,7 @@ public class Exam02 {
 			System.out.println("국어 점수가 잘못되었습니다");
 		}
 		
-		if( avr >= 60) {
+		if(avg >= 60) {
 			System.out.println("합격");
 			}else {
 				System.out.println("불합격");

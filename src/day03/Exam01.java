@@ -18,13 +18,13 @@ public class Exam01 {
 
 		int user;
 		int count = 0;
-		int random = (int) (Math.random() * 50) + 1;
+		int random = (int) (Math.random() * 50) + 1; //50까지의 수를 받는데 시작값을 1로 해서 +1
 		System.out.println("게임을 생성했습니다");
 		
 
 		while (true) {
 			System.out.println("유저입력 >");
-			user = scan.nextInt();
+			user = scan.nextInt(); //유저의 입력
 			count++;
 			if (random > user) {
 				System.out.println("Up");
